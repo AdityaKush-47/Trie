@@ -48,11 +48,11 @@ public class WordBreak_Problem {
     }
 
     public static void main(String[] args) {
-        String arr[] = {"i","like","sam","samsung","mobile","ice"};
+        String arr[] = {"b"};
         for (int i = 0; i < arr.length; i++) {
             insert(arr[i]);
         }
-        String key = "ilikesamsung";
+        String key = "a";
         System.out.println(wordBreak(key));
     }
 }
